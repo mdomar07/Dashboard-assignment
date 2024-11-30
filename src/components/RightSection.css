@@ -1,0 +1,106 @@
+.right-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #1f1f1f;
+    color: #fff;
+    padding-top: 20px;
+    border-radius: 8px;
+  }
+  
+  .right-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .goals, .popular-dishes{
+    background-color: #2c2c2e;
+    padding: 25px;
+    border-radius: 8px;
+    
+  }
+  .customer-feedback{
+    background-color: #2c2c2e;
+    padding: 20px;
+    border-radius: 8px;
+    height: 440px;
+    overflow-x: hidden;
+  }
+  .customer-feedback::-webkit-scrollbar{
+    width: 5px;
+  }
+  .customer-feedback::-webkit-scrollbar-thumb{
+    background: silver;
+    border-radius: 20px;
+  }
+  
+  .feedback-item {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .net-profit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  .goals-icon{
+    margin-right: 8px;
+    font-size: 20px;
+    background: #89382f;
+    padding: 10px;
+    border-radius: 50%;
+    color: rgb(255, 87, 27);
+  }
+  .sub-goals{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .sub-goals-div{
+    display: flex;
+    align-items: center;
+  }
+  .sub-goals-div-icon{
+    font-size: 10px;
+    padding: 5px;
+    background: #3a3a3c;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .goals-icon-dish{
+    background: #3a1974;
+    color: #9f75e8;
+  }
+  .goals-icon-menu{
+    background: #1c636c ;
+    color: #5bd8e9;
+  }
+  .feedback-item img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .customer-feedback h2{
+    margin-top: 0;
+  }
+  .customer-feedback hr{
+    opacity: 0.1;
+  }
+  .feedback-item p{
+    margin-top: 2px;
+  }
+  .feedback-item-img{
+    display: flex;
+    align-items: center;
+  }
+  .feedback-stars{
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 22px;
+    color: yellow;
+  }
+  .feedback-stars span{
+    color: #fff;
+  }
